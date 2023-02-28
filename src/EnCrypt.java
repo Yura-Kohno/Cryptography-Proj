@@ -32,6 +32,11 @@ public class EnCrypt {
             return encryptStr;
         }
 
+        public static String Decrypt(String message, int shift) {
+
+            return Crypt(message, -shift);
+        }
+
 
     }
 }
